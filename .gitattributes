@@ -1,4 +1,2 @@
-<body>
-<h1>Web Development I</h1>
-<body># Auto detect text files and perform LF normalization
+ files and perform LF normalization
 * text=auto
