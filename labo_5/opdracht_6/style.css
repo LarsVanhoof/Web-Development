@@ -22,11 +22,11 @@ h3{
     font-family: "Arial", sans-serif;
 }
 
-p.niveau1,p.niveau2,p.niveau3{
+p{
     font-family: "Times New Roman", Serif;
     font-size: 1.2em;
 }
-.niveau1 {
+.p-niveau1 {
     color: red;
 }
 .p-niveau2 {
