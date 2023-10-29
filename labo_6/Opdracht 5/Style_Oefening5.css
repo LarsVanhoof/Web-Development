@@ -1,0 +1,7 @@
+.icon-link::before {
+    content: "\1F517";
+    padding-right: 5px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.checklist li {
+    margin: 10px 0;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.checklist li::before {
+    content: "☐";
+    margin-right: 5px;
+}
+
+.checklist li.checked::before {
+    content: "☑";
+}
