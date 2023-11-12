@@ -1,0 +1,48 @@
+body{
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, sans-serif;
+}
+
+nav{
+    background-color: #393e46;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav a{
+    color: lightgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1{
+    font-size: 50px;
+    color: white;
+}
+
+article h1{
+    font-size: 30px;
+}
+
+article{
+    background-color: lightgrey;
+    margin-top: -30px;
+    margin-left: 5px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+article h1{
+    color: black;
+    padding-top: 50px;
+    text-decoration: underline;
+
+}
+
+.header{
+    background-image: url("../images/header.jpg");
+
+    padding-bottom: 10px;
+}
