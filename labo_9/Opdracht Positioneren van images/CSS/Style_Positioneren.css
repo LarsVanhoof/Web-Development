@@ -1,0 +1,29 @@
+body {
+    font-size: 1.25em;
+    font-family: Arial, sans-serif;
+}
+
+article{
+    border: 1px solid black;
+    margin: 0 10px 10px 10px;
+    padding: 10px;
+    overflow: auto;
+}
+
+h2{
+    margin: 0 0 10px 0;
+}
+
+p {
+    margin: 0;
+}
+
+article:nth-of-type(odd) img{
+    float: left;
+    margin-right: 10px;
+}
+
+article:nth-of-type(even) img{
+    float: right;
+    margin-left: 10px;
+}

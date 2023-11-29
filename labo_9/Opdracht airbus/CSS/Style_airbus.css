@@ -1,0 +1,116 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+header{
+    height: 200px;
+    background-image: url("../Images/bgsky3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin: 8px;
+}
+
+header img{
+    position: absolute;
+    float: right;
+    bottom: 60px;
+    right: 90px;
+}
+
+header p{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 240%;
+}
+
+header p:first-of-type{
+    font-size: 300%;
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 0 32px 0;
+}
+
+aside{
+    width: 25%;
+    background: #DDDDDD;
+    border: 1px solid #999999;
+    margin-top: -8px;
+    margin-right: 8px;
+    float: right;
+    color: #666666;
+}
+
+aside p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+aside h3{
+    color: white;
+    background: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+main{
+    width: 75%;
+}
+
+.introduction{
+    background: white;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-align: left;
+    padding-right: 40px;
+}
+
+.introduction span{
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.introductionlogo{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.gallery{
+    background: #999999;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.gallery img{
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+    border: 1px dotted #999999;
+
+}
+
+.bottom{
+    background: #666666;
+    color: white;
+    line-height: 2em;
+    padding-left: 120px;
+    margin-top: -20px;
+}
+
+a:hover{
+    color: red;
+}
+
+.copyright{
+    text-align: center;
+    background: white;
+    color: black;
+}
