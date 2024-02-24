@@ -1,0 +1,60 @@
+header{
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    position: relative;
+    text-align: center;
+    color: darkblue;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+}
+
+header img{
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+}
+
+header p{
+    font-size: 240%;
+    font-weight: bold;
+
+}
+
+header p:first-of-type{
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+}
+
+aside{
+    width: 25%;
+    background-color: #DDDDDD;
+    border: 1px solid #999999;
+    color: #666666;
+    font-size: 90%;
+    float: right;
+}
+
+aside h3{
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+aside p{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+main{
+    width: 75%;
+    display: inline-block;
+}
+
+.introduction{
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
