@@ -3,8 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Opdracht</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+<h1>Opdracht formvalidatie</h1>
+<form action="index.html" method="post">
+    <label for="voornaam">Voornaam:</label>
+    <input type="text" id="voornaam" name="voornaam"><br>
+    <span id="errorVoornaam" class="errorSpan" hidden="hidden"></span>
+    <label for="familienaam">Familienaam:</label>
+    <input type="text" id="familienaam" name="familienaam"><br>
+    <span id="errorFamilienaam" class="errorSpan" hidden="hidden"></span>
+    <label for="geboortedatum">Geboortedatum:</label>
+    <input type="text" id="geboortedatum" name="geboortedatum"><br>
+    <span id="errorGeboortedatum" class="errorSpan" hidden="hidden"></span>
+    <label for="email">E-mail:</label>
+    <input type="text" id="email" name="email"><br>
+    <span id="errorEmail" class="errorSpan" hidden="hidden"></span>
+    <label for="aantalKinderen">Aantal kinderen:</label>
+    <input type="text" id="aantalKinderen" name="aantalKinderen"><br>
+    <span id="errorAantalKinderen" class="errorSpan" hidden="hidden"></span>
+    <button type="button" id="validateButton">Valideer</button>
+</form>
+<script src="javascript/index.js"></script>
 </body>
 </html>
