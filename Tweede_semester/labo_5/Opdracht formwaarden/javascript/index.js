@@ -5,9 +5,9 @@ const setup = () => {
 
 const getResult = () => {
     let output = "";
-    output = document.getElementById("isRoker");
+    let isRoker = document.getElementById("isRoker");
     output = "is";
-    if(output){
+    if(isRoker.checked){
         output += " een";
     }
     else{
@@ -27,7 +27,7 @@ const getResult = () => {
     output += "favourite buurland is ";
     let buurland = document.getElementById("buurland").options;
     for(let i = 0; i < buurland.length; i++){
-        if(buurland[i].checked){
+        if(buurland[i].selected){
             output += buurland[i].value;
         }
     }
@@ -36,8 +36,9 @@ const getResult = () => {
     output += "bestelling bestaat uit ";
     let bestelling = document.getElementById("bestelling").options;
     for(let i = 0; i < bestelling.length; i++){
-        if(bestelling[i].checked){
+        if(bestelling[i].selected){
             output += bestelling[i].value;
+            output += ", ";
         }
     }
     console.log(output);
