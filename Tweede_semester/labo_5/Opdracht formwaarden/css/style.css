@@ -1,0 +1,16 @@
+#bestellingdiv{
+    display: flex;
+    margin-top: 15px;
+}
+
+#bestellingdiv label{
+    margin-right: 10px;
+}
+
+button{
+    margin-top: 10px;
+}
+
+#buurlanddiv{
+    margin-top: 10px;
+}
