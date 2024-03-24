@@ -62,5 +62,5 @@ const setup = () => {
     else {
         aantalKinderenError.innerHTML = "";
     }
-    
+
 }

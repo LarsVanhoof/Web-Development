@@ -20,8 +20,7 @@ const optellen = () => {
     let g2=parseInt(txtRechts.value, 10);
     let resultaat = g1+g2;
 
-    let resultaatTekst=g1+" + "+g2+" = "+resultaat;
-    txtOutput.innerHTML=resultaatTekst;
+    txtOutput.innerHTML=g1+" + "+g2+" = "+resultaat;
 }
 
 const aftrekken = () => {

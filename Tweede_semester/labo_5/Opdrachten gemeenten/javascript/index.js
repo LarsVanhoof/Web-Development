@@ -10,9 +10,7 @@ const toevoegenGemeenten = () => {
     let gemeentes = [];
     input = window.prompt("gemeente:", "stop");
     while(input !== "stop"){
-        if(input !== "stop") {
             gemeentes.push(input);
-        }
     }
     return gemeentes.sort();
 }
