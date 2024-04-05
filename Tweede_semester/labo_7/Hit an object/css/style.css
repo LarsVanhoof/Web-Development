@@ -1,0 +1,10 @@
+#playField{
+    height: 800px;
+    width: 600px;
+}
+
+
+#afb {
+    position: absolute;
+    margin-left: 50px;
+}
