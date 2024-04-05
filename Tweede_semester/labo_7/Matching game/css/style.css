@@ -1,0 +1,16 @@
+.matchImage {
+    width: 200px;
+    height: 200px;
+}
+
+.matchFigure {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+
+#memoryBoard {
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+}
