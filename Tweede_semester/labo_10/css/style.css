@@ -1,0 +1,24 @@
+body {
+    width: 500px;
+margin: auto;
+}
+
+button{
+    background-color: lightgreen;
+    width: 500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+input{
+    width: 488px;
+    border: solid grey 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
